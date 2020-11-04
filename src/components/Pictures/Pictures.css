@@ -1,0 +1,10 @@
+.pictures_container {
+  background-color: #E8318A;
+	color: white;
+	height: 90vh;
+  padding-top: 40px;
+}
+
+.pictures {
+	text-align: center;
+}

@@ -1,0 +1,10 @@
+.music_container {
+  background-color: black;
+	color: #fff;
+	height: 90vh;
+  padding-top: 40px;
+}
+
+.music {
+	text-align: center;
+}

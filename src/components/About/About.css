@@ -1,0 +1,31 @@
+.about_container {
+  background-color: black;
+  color:white;
+  height: 90vh;
+  padding-top: 40px;
+}
+
+.about {
+  text-align: center;
+  text-shadow: 0px 2px 20px rgba(255, 255, 255, 0.7); 
+}
+
+.about_content {
+  display: flex;
+  align-items: center;
+  flex-direction: column-reverse;
+  padding: 5em;
+}
+
+.logoblob {
+  width: 250px;
+  height: 250px;
+}
+
+.about_description {
+  line-height: 150%;
+}
+
+.about_hope {
+  font-style: italic;
+}
