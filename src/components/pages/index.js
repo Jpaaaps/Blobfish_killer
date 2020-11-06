@@ -1,10 +1,11 @@
-import React from 'react';
-import About from '../About/About';
-import Contact from '../Contact';
-import Music from '../Music';
+import React from 'react'
+import About from '../About/About'
+import Contact from '../Contact/Contact'
+import Music from '../Music/Music'
 import Navbar from '../Navbar/Navbar'
-import Pictures from '../Pictures/Pictures';
-import VideoSection from '../VideoSection/VideoSection';
+import Pictures from '../Pictures/Pictures'
+import Video from '../Video/Video'
+import VideoSection from '../VideoSection/VideoSection'
 
 function Index() {
 
@@ -15,6 +16,7 @@ function Index() {
 			<About />
 			<Pictures />
 			<Music />
+			<Video />
 			<Contact />
 		</div>
 	)

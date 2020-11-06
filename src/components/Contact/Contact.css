@@ -1,0 +1,31 @@
+.contact_container {
+  background-color: black;
+	color: #fff;
+	height: 90vh;
+}
+
+.contact {
+	text-align: center;
+	text-shadow: 0px 2px 20px rgba(255, 255, 255, 0.7); 
+	padding-top: 40px;
+}
+
+.contact_content {
+	display: flex;
+	justify-content: space-between;
+}
+
+.logoblob2 {
+	width: 30vw;
+	height: auto;
+	transform: rotate(45deg);
+	opacity: 70%;
+}
+
+.logoblob3 {
+	width: 35vh;
+	height: auto;
+	display: flex;
+	align-self: flex-end;
+}
+

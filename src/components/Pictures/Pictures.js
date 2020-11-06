@@ -1,11 +1,11 @@
 import React from 'react'
+import Slider from '../Slider'
 import './Pictures.css'
 
 function Pictures() {
 	return (
-		<div className='pictures_container'>
-			<h1 className='pictures'>Pictures</h1>
-			
+		<div className='pictures'>
+			<Slider />
 		</div>
 	)
 }
