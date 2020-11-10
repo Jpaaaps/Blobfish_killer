@@ -14,3 +14,10 @@ i.fas {
 	height: 78vh;
 }
 
+@media screen and (max-width: 820px) {
+
+	.carousel_blob {
+		max-width: 80%;
+		height: auto;
+	}
+}
