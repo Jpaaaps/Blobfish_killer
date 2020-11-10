@@ -1,5 +1,5 @@
 form {
-  width: 500px;
+  max-width: 450px;
   margin: 0 auto;
 }
 
@@ -36,57 +36,26 @@ label {
   font-weight: 200;
 }
 
-button[type="submit"],
-input[type="submit"] {
-  background: #ec5990;
-  color: white;
-  border: none;
-  margin-top: 30px;
-  padding: 20px;
-  font-size: 16px;
-  font-weight: 100;
-  letter-spacing: 10px;
+button[type="submit"]:hover {
+  background: #ff3e3e;
 }
 
-button[type="submit"]:hover,
-input[type="submit"]:hover {
-  background: #ff0059;
-}
-
-button[type="submit"]:active,
-input[type="submit"]:active {
-  transition: 0.3s all;
-  transform: translateY(3px);
-  border: 1px solid transparent;
-  opacity: 0.8;
-}
-
-input[type="button"]:hover {
+button[type="submit"]:hover {
   transition: 0.3s all;
 }
 
-input[type="button"],
-input[type="submit"] {
-  -webkit-appearance: none;
-}
-
-button[type="button"] {
+button[type="submit"] {
   display: block;
   appearance: none;
-  background: #333;
+  background: #E8318A;
   color: white;
   border: none;
   text-transform: uppercase;
   padding: 10px 20px;
   border-radius: 4px;
-}
-
-button {
-  display: block;
-  appearance: none;
-  border: 1px solid #333;
   margin: 40px auto 20px auto;
-  text-transform: uppercase;
-  padding: 10px 20px;
-	border-radius: 4px;
+  padding: 20px;
+  font-size: 16px;
+  font-weight: 100;
+  letter-spacing: 8px;
 }

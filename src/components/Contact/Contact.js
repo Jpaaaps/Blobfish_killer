@@ -7,7 +7,7 @@ function Contact() {
 		<div className='contact_container'>
 			<h1 className='contact'>Contact Us</h1>
 			<div className='contact_content'>
-				<Form />
+					<Form />
 			</div>
 		</div>
 	)

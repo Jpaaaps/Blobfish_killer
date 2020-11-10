@@ -1,6 +1,7 @@
 import React from 'react'
 import About from '../About/About'
 import Contact from '../Contact/Contact'
+import Footer from '../Footer'
 import Music from '../Music/Music'
 import Navbar from '../Navbar/Navbar'
 import Pictures from '../Pictures/Pictures'
@@ -18,6 +19,7 @@ function Index() {
 			<Music />
 			<Video />
 			<Contact />
+			<Footer />
 		</div>
 	)
 }
